@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AspireApp1/AspireApp1.AppHost/AspireApp1.AppHost.csproj" Id="b6a5867a-9e42-46e9-bca6-7f233b9db1a0" />
+  <Project Path="AspireApp1/AspireApp1.ServiceDefaults/AspireApp1.ServiceDefaults.csproj" />
+  <Project Path="HelloWorldContainer/HelloWorldContainer.csproj" />
+</Solution>

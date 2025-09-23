@@ -1,0 +1,9 @@
+@HelloWorldContainer_HostAddress = https://localhost:7298
+
+GET {{HelloWorldContainer_HostAddress}}/weatherforecast/
+Accept: application/json
+###
+
+GET {{HelloWorldContainer_HostAddress}}/HelloWorld/
+Accept: application/json
+###
