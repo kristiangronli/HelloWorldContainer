@@ -1,4 +1,8 @@
+using Aspire.Hosting.Docker;
+
 var builder = DistributedApplication.CreateBuilder(args);
+
+builder.AddDockerComposeEnvironment("Development");
 
 var grafana = builder.AddContainer("grafana", "grafana/otel-lgtm:latest")
     .WithEndpoint(port: 4318, targetPort: 4318, name: "otlp-http", scheme: "http", isProxied: true, isExternal: true)
